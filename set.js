@@ -25,7 +25,7 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "", // Only 1 owner Number Here, other
 OWNER_NAME: process.env.OWNER_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇", // Input Yours custom...(Maintain font for Flow)
 PREFIX: process.env.PREFIX || ".",
 ANTIDELETE: process.env.ANTIDELETE || "false",
-ANTICALL: process.env.ANTICALL || "false",
+ANTICALL: process.env.ANTICALL || "true",
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
 BOT_NAME: process.env.BOT_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃", // Input Yours custom...(Maintain font for Flow)
@@ -35,7 +35,7 @@ WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
 AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false",
 AUTO_BLOCK: process.env.AUTO_BLOCK || "212,79", // Add Multiple Country Codes Separated by Comma...
-PRESENCE: process.env.PRESENCE || "online", // Choose one: typing, recording, online, null
+PRESENCE: process.env.PRESENCE || "recording", // Choose one: typing, recording, online, null
 TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", // Enter yours else leave blank if not sure
 };
 
