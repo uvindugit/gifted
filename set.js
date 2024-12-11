@@ -24,7 +24,7 @@ PACK_NAME: process.env.PACK_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃💜", // 
 PREFIX: process.env.PREFIX || ".",
 ANTIDELETE: process.env.ANTIDELETE || "false", // Still under development
 ANTILINK: process.env.ANTILINK || "false", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
-ANTICALL: process.env.ANTICALL || "false",
+ANTICALL: process.env.ANTICALL || "true",
 ANTIBAD: process.env.ANTIBAD || "false",
 BAD_WORDS: process.env.BAD_WORDS || "fuck, pussy, anus, idiot", // Add Yours Separated by Comma(will be deleted if ANTIBAD is set to true)
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
