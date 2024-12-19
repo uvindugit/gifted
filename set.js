@@ -1,8 +1,8 @@
-
 // Hi Buddy,
 // Edit Anything Here Except ones Indicated "DO NOT"...
-const fs = require('fs'), dotenv = fs.existsSync('config.env') ? require('dotenv').config({ path: '/.env' }) : undefined;
-const convertToBool = (text, fault = 'true') => text === fault;
+const fs = require('fs'), 
+      dotenv = fs.existsSync('config.env') ? require('dotenv').config({ path: '/.env' }) : undefined,
+      convertToBool = (text, fault = 'true') => text === fault;
 
 global.caption = "*©𝟐𝟎𝟐𝟒 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 𝐕𝟓*"; // Input Yours custom...(Maintain font for Flow)
 global.api = "https://api.giftedtech.my.id/api"; // DO NOT Change this...
@@ -29,7 +29,7 @@ PACK_AUTHOR: process.env.PACK_AUTHOR || "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂�
 PACK_NAME: process.env.PACK_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃💜", // Added // Input Yours custom...
 PREFIX: process.env.PREFIX || ".",
 API_KEY: process.env.API_KEY || "gifted-md", // Replace with your unlimited api key
-ANTIDELETE: process.env.ANTIDELETE || "false", // Still under development
+// ANTIDELETE: process.env.ANTIDELETE || "false", // Still under development
 ANTILINK: process.env.ANTILINK || "false", //  Enter true to kick automatically or delete to delete without kicking or warn to warn before kicking
 ANTICALL: process.env.ANTICALL || "true",
 ANTIBAD: process.env.ANTIBAD || "false",
